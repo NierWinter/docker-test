@@ -2,7 +2,7 @@
 FROM node:8.6.0-alpine
 
 # 创建app目录
-RUN mkdir -p /usr/src/node/test
+RUN mkdir -p /usr/src/node/test/server && mkdir -p /usr/src/node/test/web
 
 # 设置工作目录
 WORKDIR /usr/src/node/test
